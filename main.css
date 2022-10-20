@@ -29,9 +29,52 @@
 #cardMain{
     min-width: 350px;
     min-height: 200px;
-    background-color: red;
+    background-color: #22213f;
     border-radius: 8px;
     margin: 5px;
+    padding: none;
+    display: flex;
+    color: white;
+}
+
+#cardMain>span{
+    padding: 12px 0px;
+}
+
+#cardMain>div{
+    margin: 12px;
+    height: 176px;
+    width: 176px;
+    background-image: url(/img/vergino.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-radius: 4px;
+}
+
+#cardNameK{
+    font-size: 32px;
+    font-weight: 800;
+}
+#cardNameLt{
+    font-size: 22px;
+    font-weight: 200;
+    opacity: 75%;
+}
+
+#cardTags{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 150px;
+}
+#cardTag{
+    line-height: 30px;
+    background-color: #ffffff25;
+    padding: 0 8px;
+    border: #ffffff31 2px solid;
+    border-radius: 9999px;
+    margin-right: 8px;
+    margin-top: 8px;
 }
 
 .absoluteCenter{
