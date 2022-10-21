@@ -1,3 +1,8 @@
+body{
+    margin: 0 auto;
+    width: 1100px;
+}
+
 #infoModalBg{
     background-color: #0000004d;
     backdrop-filter: blur(12px);
