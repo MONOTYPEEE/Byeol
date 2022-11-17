@@ -1,7 +1,7 @@
 const cardListBox = document.querySelector('#cardList');
 const boxes = document.querySelectorAll(`#cardMain`);
 
-function loadList(FENM){
+function loadList(elm, idx, elmParent){
     const newTT = document.createElement('div');
     newTT.id = 'cardMain';
     cardListBox.appendChild(newTT);
@@ -10,17 +10,24 @@ function loadList(FENM){
         <div id="cardNameK"></div>
         <div id="cardNameLt"></div>
         <div id="cardMeridianWhen"></div>
-        <div id="cardTags">
-            <span id="cardTag"></span>
-        </div>
+        <div id="cardTags"></div>
     </span>`;
-    newTT.querySelector('#cardNameK').innerText = FENM.nameKo;
-    newTT.querySelector('#cardNameLt').innerText = FENM.nameLt;
-    newTT.querySelector('#cardMeridianWhen').innerText = `${FENM.whenMeridian} 최고`;  
-    newTT.querySelectorAll('#cardTag')[0].innerText = FENM.tags[0]; 
-    newTT.querySelector('#cardImg').style.backgroundImage =`url('${FENM.file}')`;
+
+    const tagBox = document.querySelectorAll('#cardTags');
+    elm.tags.forEach(function(element){
+        const tagX = document.createElement("span");
+        tagX.id = 'cardTag';
+        tagBox[idx].appendChild(tagX);
+        tagX.innerHTML = element;
+    });
+
+    newTT.querySelector('#cardNameK').innerText = elm.nameKo;
+    newTT.querySelector('#cardNameLt').innerText = elm.nameLt;
+    newTT.querySelector('#cardMeridianWhen').innerText = `${elm.whenMeridian} 최고`;  
+    //newTT.querySelectorAll('#cardTag')[0].innerText = elm.tags[0];
+    newTT.querySelector('#cardImg').style.backgroundImage =`url('${elm.file}')`;
 }
 
-starData.forEach(function(number){
-    loadList(number);
+starData.forEach(function(element,index,array){
+    loadList(element, index, array);
 });
