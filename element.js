@@ -1,7 +1,7 @@
 const cardListBox = document.querySelector('#cardList');
 const boxes = document.querySelectorAll(`#cardMain`);
 
-function loadList(arrIndex){
+function loadList(FENM){
     const newTT = document.createElement('div');
     newTT.id = 'cardMain';
     cardListBox.appendChild(newTT);
@@ -14,13 +14,13 @@ function loadList(arrIndex){
             <span id="cardTag"></span>
         </div>
     </span>`;
-    newTT.querySelector('#cardNameK').innerText = starData[arrIndex].nameKo;
-    newTT.querySelector('#cardNameLt').innerText = starData[arrIndex].nameLt;
-    newTT.querySelector('#cardMeridianWhen').innerText = `${starData[arrIndex].whenMeridian} 최고`;  
-    newTT.querySelectorAll('#cardTag')[0].innerText = starData[arrIndex].tags[0]; 
-    newTT.querySelector('#cardImg').style.backgroundImage =`url('${starData[arrIndex].file}')`;
+    newTT.querySelector('#cardNameK').innerText = FENM.nameKo;
+    newTT.querySelector('#cardNameLt').innerText = FENM.nameLt;
+    newTT.querySelector('#cardMeridianWhen').innerText = `${FENM.whenMeridian} 최고`;  
+    newTT.querySelectorAll('#cardTag')[0].innerText = FENM.tags[0]; 
+    newTT.querySelector('#cardImg').style.backgroundImage =`url('${FENM.file}')`;
 }
 
-for(let i = 0;i<=starData.length-1;i++){
-    loadList(i);
-}
+starData.forEach(function(number){
+    loadList(number);
+});
