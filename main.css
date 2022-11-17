@@ -72,13 +72,14 @@ body{
     max-width: 150px;
 }
 #cardTag{
-    line-height: 30px;
+    line-height: 26px;
     background-color: #ffffff25;
-    padding: 0 8px;
+    padding: 0 6px;
     border: #ffffff31 2px solid;
     border-radius: 17px;
     margin-right: 8px;
     margin-top: 8px;
+    font-size: 14px;
 }
 
 .absoluteCenter{
