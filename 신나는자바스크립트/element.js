@@ -27,7 +27,3 @@ function loadList(elm, idx, elmParent){
     //newTT.querySelectorAll('#cardTag')[0].innerText = elm.tags[0];
     newTT.querySelector('#cardImg').style.backgroundImage =`url('${elm.file}')`;
 }
-
-starData.forEach(function(element,index,array){
-    loadList(element, index, array);
-});
