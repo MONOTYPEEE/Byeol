@@ -9,6 +9,7 @@ const starData = [
       size: "1294.428sr(2위)",
       tags: ["봄철 밤하늘 별자리","황도 제6궁"],
       emoji: "♍",
+      file:"./img/vergino.jpg"
     },
     {
       nameKo: "거문고자리",
@@ -19,6 +20,7 @@ const starData = [
       numOfStar: "35개",
       size: "286.476sr(52위)",
       tags: ["여름철 밤하늘 별자리"],
+      file:"./img/lyra.webp"
     },
     {
       nameKo: "독수리자리",
@@ -29,6 +31,7 @@ const starData = [
       numOfStar: "70개",
       size: "652.473sr(22위)",
       tags: ["여름철 밤하늘 별자리"],
+      file:"./img/aquila.jpg"
     },
     {
       nameKo: "뱀자리",
@@ -39,6 +42,7 @@ const starData = [
       numOfStar: "54개",
       size: "636.928sr(23위)",
       tags: ["여름철 밤하늘 별자리"],
+      file:"./img/Serpens.png"
     },
     {
       nameKo: "페가수스자리",
@@ -49,6 +53,7 @@ const starData = [
       numOfStar: "98개",
       size: "1120.794sr(7위)",
       tags: ["가을철 밤하늘 별자리"],
+      file:"./img/pegasus.jpg"
     },
     {
       nameKo: "물병자리",
@@ -60,6 +65,7 @@ const starData = [
       size: "979.854sr(10위)",
       tags: ["가을철 밤하늘 별자리","황도 제11궁"],
       emoji: "♒",
+      file:"./img/aquarius.jpg"
     },
     {
       nameKo: "도마뱀자리",
@@ -70,6 +76,7 @@ const starData = [
       numOfStar: "36개",
       size: "200.688sr(68위)",
       tags: ["가을철 밤하늘 별자리"],
+      file:"./img/lacerta.jpg"
     },
     {
       nameKo: "쌍둥이자리",
@@ -81,6 +88,7 @@ const starData = [
       size: "513.761sr(30위)",
       tags: ["겨울철 밤하늘 별자리","황도 제3궁"],
       emoji: "♊",
+      file:"./img/gemini.jpg"
     },
     {
       nameKo: "오리온자리",
@@ -91,6 +99,7 @@ const starData = [
       numOfStar: "125개",
       size: "594.120sr(26위)",
       tags: ["겨울철 밤하늘 별자리"],
+      file:"./img/orion.jpg"
     },
     {
       nameKo: "케페우스자리",
@@ -101,6 +110,7 @@ const starData = [
       numOfStar: "96개",
       size: "587.787sr(27위)",
       tags: ["북쪽 밤하늘 별자리"],
+      file:"./img/cephus.jpg"
     },
     {
       nameKo: "까마귀자리",
@@ -111,6 +121,7 @@ const starData = [
       numOfStar: "18개 / 17개",
       size: "183.801sr(70위) / 282.398sr(53위)",
       tags: ["봄철 밤하늘 별자리"],
+      file:"./img/corvus.jpg"
     },
     {
       nameKo: "마차부자리",
@@ -121,16 +132,18 @@ const starData = [
       numOfStar: "78개",
       size: "657.438sr(21위)",
       tags: ["겨울철 밤하늘 별자리"],
+      file:"./img/auriga.jpg",
     },
     {
       nameKo: "작은개자리",
       nameLt: "Canis Minor",
-      nameEn: "the Little Dog. the Smaller Dog",
+      nameEn: "the Little Dog",
       whereSee: "적경 7h 30m, 적위 +6°",
       whenMeridian: "2022-03-09 T21:00",
       numOfStar: "25개",
       size: "183.367sr(71위)",
       tags: ["겨울철 밤하늘 별자리"],
+      file:"./img/canis.jpg",
     },
     {
       nameKo: "바다뱀자리",
@@ -141,6 +154,7 @@ const starData = [
       numOfStar: "126개",
       size: "1302.844sr(1위)",
       tags: ["봄철 밤하늘 별자리"],
+      file:"./img/hydra.jpg",
     },
     {
       nameKo: "돌고래자리",
@@ -151,6 +165,7 @@ const starData = [
       numOfStar: "19개",
       size: "188.549sr(69위)",
       tags: ["여름철 밤하늘 별자리"],
+      file:"./img/delphinus.jpg",
     },
     {
       nameKo: "안드로메다자리",
@@ -161,6 +176,7 @@ const starData = [
       numOfStar: "84개",
       size: "722.278sr(19위)",
       tags: ["가을철 밤하늘 별자리"],
+      file:"./img/andromeda.jpg",
     },
     {
       nameKo: "황소자리",
@@ -172,6 +188,7 @@ const starData = [
       size: "797.249sr(17위)",
       tags: ["겨울철 밤하늘 별자리","황도 제2궁"],
       emoji: "♉",
+      file:"./img/taurus.jpg",
     },
     {
       nameKo: "큰곰자리",
@@ -182,6 +199,7 @@ const starData = [
       numOfStar: "126개",
       size: "1279.660sr(3위)",
       tags: ["북쪽 밤하늘 별자리"],
+      file:"./img/ursa_major.jpg",
     },
     {
       nameKo: "용자리",
@@ -192,6 +210,7 @@ const starData = [
       numOfStar: "123개",
       size: "1082.952sr(8위)",
       tags: ["북쪽 밤하늘 별자리"],
+      file:"./img/draco.jpg",
     },
     {
       nameKo: "카시오페이아자리",
@@ -202,6 +221,7 @@ const starData = [
       numOfStar: "94개",
       size: "598.407sr(25위)",
       tags: ["북쪽 밤하늘 별자리"],
+      file:"./img/cassiopeia.jpg",
     },
     {
       nameKo: "머리털자리",
@@ -212,6 +232,7 @@ const starData = [
       numOfStar: "38개",
       size: "386.475sr(42위)",
       tags: ["봄철 밤하늘 별자리"],
+      file:"./img/Coma_Berenices.jpg",
     },
     {
       nameKo: "사냥개자리",
@@ -222,6 +243,7 @@ const starData = [
       numOfStar: "32개",
       size: "465.194sr(38위)",
       tags: ["봄철 밤하늘 별자리"],
+      file:"./img/canes-venatici.jpg",
     },
     {
       nameKo: "천칭자리",
@@ -233,6 +255,7 @@ const starData = [
       size: "538.052sr(29위)",
       tags: ["봄철 밤하늘 별자리","황도 제7궁"],
       emoji: "♎",
+      file:"./img/libra.jpg",
     },
     {
       nameKo: "살쾡이자리",
@@ -243,6 +266,7 @@ const starData = [
       numOfStar: "61개",
       size: "545.386sr(28위)",
       tags: ["봄철 밤하늘 별자리"],
+      file:"./img/lynx.jpg",
     },
     {
       nameKo: "궁수자리",
@@ -253,6 +277,7 @@ const starData = [
       numOfStar: "113개",
       size: "867.432sr(15위)",
       tags: ["여름철 밤하늘 별자리"],
+      file:"./img/sagittarius.jpg",
     },
     {
       nameKo: "백조자리",
@@ -263,6 +288,7 @@ const starData = [
       numOfStar: "139개",
       size: "803.983sr(16위)",
       tags: ["여름철 밤하늘 별자리"],
+      file:"./img/swan.jpg"
     },
     {
       nameKo: "염소자리",
@@ -274,6 +300,7 @@ const starData = [
       size: "413.947sr(40위)",
       tags: ["여름철 밤하늘 별자리","황도 제10궁"],
       emoji: "♑",
+      file:"./img/capricornus.jpg",
     },
     {
       nameKo: "전갈자리",
@@ -285,6 +312,7 @@ const starData = [
       size: "496.783sr(33위)",
       tags: ["여름철 밤하늘 별자리","황도 제8궁"],
       emoji: "♏",
+      file:"./img/scorpio.jpg",
     },
     {
       nameKo: "헤르쿨레스자리",
@@ -295,6 +323,7 @@ const starData = [
       numOfStar: "142개",
       size: "1225.148sr(5위)",
       tags: ["여름철 밤하늘 별자리"],
+      file:"./img/hercules.jpg",
     },
     {
       nameKo: "작은여우자리",
@@ -306,6 +335,7 @@ const starData = [
       size: "268.165sr(55위)",
       tags: ["여름철 밤하늘 별자리","황도 제9궁"],
       emoji: "♐",
+      file:"./img/vulpecula.jpg",
     },
     {
       nameKo: "고래자리",
@@ -316,6 +346,7 @@ const starData = [
       numOfStar: "110개",
       size: "1231.411sr(4위)",
       tags: ["가을철 밤하늘 별자리"],
+      file:"./img/cetus.jpg",
     },
     {
       nameKo: "물고기자리",
@@ -327,6 +358,7 @@ const starData = [
       size: "889.417sr(14위)",
       tags: ["가을철 밤하늘 별자리","황도 제12궁"],
       emoji: "♓",
+      file:"./img/pisces.jpg",
     },
     {
       nameKo: "페르세우스자리",
@@ -337,6 +369,7 @@ const starData = [
       numOfStar: "98개",
       size: "614.997sr(24위)",
       tags: ["가을철 밤하늘 별자리"],
+      file:"./img/perseus.jpg",
     },
     {
       nameKo: "양자리",
@@ -348,6 +381,7 @@ const starData = [
       size: "441.395sr(39위)",
       tags: ["가을철 밤하늘 별자리","황도 제1궁"],
       emoji: "♈",
+      file:"./img/aries.png",
     },
     {
       nameKo: "게자리",
@@ -359,6 +393,7 @@ const starData = [
       size: "505.872sr(31위)",
       tags: ["겨울철 밤하늘 별자리","황도 제4궁"],
       emoji: "♋",
+      file:"./img/cancer.jpg",
     },
     {
       nameKo: "에리다누스자리",
@@ -369,6 +404,7 @@ const starData = [
       numOfStar: "129개",
       size: "1137.919sr(6위)",
       tags: ["겨울철 밤하늘 별자리"],
+      file:"./img/eridanus.jpg",
     },
     {
       nameKo: "토끼자리",
@@ -379,6 +415,7 @@ const starData = [
       numOfStar: "46개",
       size: "290.291sr(51위)",
       tags: ["겨울철 밤하늘 별자리"],
+      file:"./img/lepus.jpg",
     },
     {
       nameKo: "큰개자리",
@@ -389,6 +426,7 @@ const starData = [
       numOfStar: "87개",
       size: "380.118sr(43위)",
       tags: ["겨울철 밤하늘 별자리"],
+      file:"./img/canis-major.jpg",
     },
     {
       nameKo: "사자자리",
@@ -400,6 +438,7 @@ const starData = [
       size: "946.964sr(12위)",
       tags: ["봄철 밤하늘 별자리","황도 제5궁"],
       emoji: "♌",
+      file:"./img/leo.jpg",
     },
     {
       nameKo: "목동자리",
@@ -410,5 +449,6 @@ const starData = [
       numOfStar: "86개",
       size: "906.831sr(13위)",
       tags: ["봄철 밤하늘 별자리"],
+      file:"./img/bootes.jpg",
     }
   ];
