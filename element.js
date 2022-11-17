@@ -18,6 +18,7 @@ function loadList(arrIndex){
     newTT.querySelector('#cardNameLt').innerText = starData[arrIndex].nameLt;
     newTT.querySelector('#cardMeridianWhen').innerText = `${starData[arrIndex].whenMeridian} 최고`;  
     newTT.querySelectorAll('#cardTag')[0].innerText = starData[arrIndex].tags[0]; 
+    newTT.querySelector('#cardImg').style.backgroundImage =`url('${starData[arrIndex].file}')`;
 }
 
 for(let i = 0;i<=starData.length-1;i++){
