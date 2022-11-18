@@ -53,9 +53,9 @@ switch(urlParam){
     }
 
     case 'northen':{
-        document.title += ' 봄철 밤하늘 별자리'
+        document.title += ' 북쪽 밤하늘 별자리'
         starData.forEach(function(element,index,array){
-            if(element.tags[0]==='봄철 밤하늘 별자리'){
+            if(element.tags[0]==='북쪽 밤하늘 별자리'){
                 loadList(element,a++,array);
             }
         });
