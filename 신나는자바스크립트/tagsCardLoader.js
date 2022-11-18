@@ -9,6 +9,7 @@ switch(urlParam){
                 loadList(element,a++,array);
             }
         });
+        break;
     }
 
     case 'authmn':{
@@ -18,6 +19,7 @@ switch(urlParam){
                 loadList(element,a++,array);
             }
         });
+        break;
     }
 
     case 'summer':{
@@ -27,6 +29,7 @@ switch(urlParam){
                 loadList(element,a++,array);
             }
         });
+        break;
     }
     
     case 'winter':{
@@ -36,6 +39,7 @@ switch(urlParam){
                 loadList(element,a++,array);
             }
         });
+        break;
     }
     
     case 'spring':{
@@ -45,5 +49,6 @@ switch(urlParam){
                 loadList(element,a++,array);
             }
         });
+        break;
     }
 }
