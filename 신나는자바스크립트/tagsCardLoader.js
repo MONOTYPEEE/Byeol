@@ -51,4 +51,14 @@ switch(urlParam){
         });
         break;
     }
+
+    case 'northen':{
+        document.title = '별::북쪽 밤하늘 별자리'
+        starData.forEach(function(element,index,array){
+            if(element.tags[0]==='북쪽 밤하늘 별자리'){
+                loadList(element,a++,array);
+            }
+        });
+        break;
+    }
 }
