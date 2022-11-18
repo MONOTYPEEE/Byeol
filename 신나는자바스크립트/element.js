@@ -23,7 +23,7 @@ function loadList(elm, idx, elmParent){
         tagX.addEventListener('click',function(element){
             switch(element.path[0].innerHTML){
                 case '겨울철 밤하늘 별자리':{
-                    console.log('winter');
+                    location.href = `./tag.html?tagname=winter`;
                     break;
                 }
                 case '황도 제12궁':case '황도 제11궁':
@@ -32,23 +32,23 @@ function loadList(elm, idx, elmParent){
                 case '황도 제6궁':case '황도 제5궁':
                 case '황도 제4궁':case '황도 제3궁':
                 case '황도 제2궁':case '황도 제1궁':{
-                    console.log('12qq');
+                    location.href = `./tag.html?tagname=zodiac`;
                     break;
                 }
                 case '여름철 밤하늘 별자리':{
-                    console.log('sumr');
+                    location.href = `./tag.html?tagname=summer`;
                     break;
                 }
                 case '봄철 밤하늘 별자리':{
-                    console.log('sprg');
+                    location.href = `./tag.html?tagname=spring`;
                     break;
                 }
                 case '가을철 밤하늘 별자리':{
-                    console.log('auth');
+                    location.href = `./tag.html?tagname=authmn`;
                     break;
                 }
                 case '북쪽 밤하늘 별자리':{
-                    console.log('nk');
+                    location.href = `./tag.html?tagname=northen`;
                     break;
                 }
             }
