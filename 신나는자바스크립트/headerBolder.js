@@ -23,6 +23,7 @@ switch(urlParam){
     
     case 'spring':{
         nsx[1].classList.add('selected');
+        break;
     }
 
     case 'northen':{
