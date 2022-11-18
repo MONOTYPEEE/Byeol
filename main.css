@@ -140,3 +140,10 @@ header img{
     transition: all 250ms;
     filter: drop-shadow(0 0 2px #2200ff);
 }
+
+#headerBord{
+    height: 20px;
+    width: 1px;
+    background-color: #0000003b;
+    margin-left: 12px;
+}
