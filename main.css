@@ -109,16 +109,28 @@ header{
                 0px 0px 16.4px #ffffff1f;
 }
 
-header span{
+.topBarSt{
     padding: 0 12px;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.75;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+}
 
+.topBarSt:hover{
+    font-weight: 800;
+    opacity: 1;
+    transition: all 250ms ease-in-out;
+}
+
+.selected{
+    font-weight: 800;
+    transition: all 500ms ease-in-out;
+    opacity: 1;
 }
 
 header img{
     transition: all 250ms;
-}
-
-header img:hover{
     filter: drop-shadow(0 0 2px #2200ff);
-    transition: all 500ms;
 }
