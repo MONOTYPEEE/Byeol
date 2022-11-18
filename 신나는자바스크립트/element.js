@@ -17,8 +17,42 @@ function loadList(elm, idx, elmParent){
     elm.tags.forEach(function(element){
         const tagX = document.createElement("span");
         tagX.id = 'cardTag';
-        tagBox[idx].appendChild(tagX);
         tagX.innerHTML = element;
+        // console.log(element);
+        tagBox[idx].appendChild(tagX);
+        tagX.addEventListener('click',function(element){
+            switch(element.path[0].innerHTML){
+                case '겨울철 밤하늘 별자리':{
+                    console.log('winter');
+                    break;
+                }
+                case '황도 제12궁':case '황도 제11궁':
+                case '황도 제10궁':case '황도 제9궁':
+                case '황도 제8궁':case '황도 제7궁':
+                case '황도 제6궁':case '황도 제5궁':
+                case '황도 제4궁':case '황도 제3궁':
+                case '황도 제2궁':case '황도 제1궁':{
+                    console.log('12qq');
+                    break;
+                }
+                case '여름철 밤하늘 별자리':{
+                    console.log('sumr');
+                    break;
+                }
+                case '봄철 밤하늘 별자리':{
+                    console.log('sprg');
+                    break;
+                }
+                case '가을철 밤하늘 별자리':{
+                    console.log('auth');
+                    break;
+                }
+                case '북쪽 밤하늘 별자리':{
+                    console.log('nk');
+                    break;
+                }
+            }
+        });
     });
 
     newTT.querySelector('#cardNameK').innerText = elm.nameKo;
