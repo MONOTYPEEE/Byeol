@@ -27,7 +27,7 @@ body{
     max-width: 1100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     overflow-x: auto;
     z-index: 6;
 }
@@ -92,4 +92,15 @@ body{
 
 .hiden{
     visibility: hidden;
+}
+
+
+header{
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(247, 247, 247, 0.8);
+    overflow: auto;
+    box-shadow: 0px 25.6px 57.6px rgba(255, 255, 255, 0.14), 0px 0px 16.4px rgba(255, 255, 255, 0.12);
 }
