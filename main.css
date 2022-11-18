@@ -120,6 +120,8 @@ header{
     opacity: 0.75;
     transition: all 250ms ease-in-out;
     cursor: pointer;
+    color: black;
+    text-decoration: none;
 }
 
 .topBarSt:hover{
