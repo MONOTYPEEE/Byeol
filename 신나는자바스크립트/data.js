@@ -72,7 +72,7 @@ const starData = [
       nameLt: "Lacerta",
       nameEn: "the Lizard",
       whereSee: "적경 22h 25m, 적위 +43°",
-      whenMeridian: "2022-10-22 오후",
+      whenMeridian: "2022-10-22",
       numOfStar: "36개",
       size: "200.688sr(68위)",
       tags: ["가을철 밤하늘 별자리"],
