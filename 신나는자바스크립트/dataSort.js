@@ -1,9 +1,9 @@
 starData.sort((a,b)=>{
-    return new Date(a.whenMeridian) - new Date(b.whenMeridian);
+    return dayjs(a.whenMeridian).diff(b.whenMeridian);
 });
 
 starData.forEach(function(element,index,array){
-    if(Date.parse(element.whenMeridian) - new Date()<=0){
+    if(dayjs().isAfter(starData[index].whenMeridian)){
         starData.push(starData.shift());
     }
 });
