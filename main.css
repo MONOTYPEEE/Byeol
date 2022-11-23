@@ -105,10 +105,10 @@ header{
     z-index: 7;
     padding: 10px;
     margin: 16px 0;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #262626;
     border-radius: 8px;
     backdrop-filter: blur(10px);
-    background-color: #f7f7f7cc;
+    background-color: #1e1e24cc;
     overflow: auto;
     box-shadow: 0px 25.6px 57.6px #ffffff24, 0px 0px 16.4px #ffffff1f;
 }
@@ -120,7 +120,7 @@ header{
     opacity: 0.75;
     transition: all 250ms ease-in-out;
     cursor: pointer;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -138,7 +138,7 @@ header{
 
 header img{
     transition: all 250ms;
-    filter: drop-shadow(0 0 2px #2200ff);
+    filter: drop-shadow(0 0 6px #a200ff);
 }
 
 #headerBord{
