@@ -110,6 +110,7 @@ body{
     background-position: center;
     background-size:cover;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 #cardNameK{
