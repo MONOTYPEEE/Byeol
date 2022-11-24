@@ -9,7 +9,7 @@ const starData = [
       size: "1294.428sr(2위)",
       tags: ["봄철 밤하늘 별자리","황도 제6궁"],
       emoji: "♍",
-      file:"./img/vergino.jpg"
+      file:"./img/vergino.jpg",
     },
     {
       nameKo: "거문고자리",
