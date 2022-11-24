@@ -3,6 +3,20 @@ const modalBox = document.querySelector('#infoModal');
 const htmlBOdy = document.querySelector('body');
 let isModalOn = false;
 
+function modalLoader(event){
+    const givenID = event.path[1].classList[0];
+    //modalBox.querySelector("#imImage").style.backgroundImage = ;
+    modalBox.querySelector("#imsNameE").innerHTML = starData[givenID].nameEn;
+    modalBox.querySelector("#imsNameK").innerHTML = starData[givenID].nameKo;
+    modalBox.querySelector("#imsNameL").innerHTML = starData[givenID].nameLt;
+
+    modalBox.querySelectorAll(".imPL :last-child")[0].innerHTML = starData[givenID].whereSee;
+    modalBox.querySelectorAll(".imPL :last-child")[1].innerHTML = starData[givenID].numOfStar;
+    modalBox.querySelectorAll(".imPL :last-child")[2].innerHTML = starData[givenID].size;
+    modalBox.querySelectorAll(".imPL :last-child")[3].innerHTML = starData[givenID].whenMeridian;
+    modalBox.querySelectorAll(".imPL :last-child")[4].innerHTML = starData[givenID].desc;
+}
+
 function modalVisableSwitch(){
     if(isModalOn==true){
         modalBgBg.classList.add('hiden');
