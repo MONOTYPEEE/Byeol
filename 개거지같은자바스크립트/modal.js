@@ -13,7 +13,7 @@ function modalLoader(event){
     modalBox.querySelectorAll(".imPL :last-child")[0].innerHTML = starData[givenID].whereSee;
     modalBox.querySelectorAll(".imPL :last-child")[1].innerHTML = starData[givenID].numOfStar;
     modalBox.querySelectorAll(".imPL :last-child")[2].innerHTML = starData[givenID].size;
-    modalBox.querySelectorAll(".imPL :last-child")[3].innerHTML = starData[givenID].whenMeridian;
+    modalBox.querySelectorAll(".imPL :last-child")[3].innerHTML = dayjs(starData[givenID].whenMeridian).format("M월 D일");
     modalBox.querySelectorAll(".imPL :last-child")[4].innerHTML = starData[givenID].desc;
 }
 
