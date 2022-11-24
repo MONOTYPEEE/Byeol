@@ -10,6 +10,7 @@ function modalLoader(event){
     modalBox.querySelector("#imsNameE").innerHTML = starData[givenID].nameEn;
     modalBox.querySelector("#imsNameK").innerHTML = starData[givenID].nameKo;
     modalBox.querySelector("#imsNameL").innerHTML = starData[givenID].nameLt;
+    if(starData[givenID].emoji!=undefined) modalBox.querySelector("#imsNameL").innerHTML += starData[givenID].emoji;
 
     modalBox.querySelectorAll(".imPL :last-child")[0].innerHTML = starData[givenID].whereSee;
     modalBox.querySelectorAll(".imPL :last-child")[1].innerHTML = starData[givenID].numOfStar;
