@@ -111,6 +111,13 @@ body{
     background-size:cover;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+#cardImg:hover{
+    transform: scale(105%);
+    box-shadow: #917e9a70 0 0 16px;
+    transition: all 250ms ease-in-out;
 }
 
 #cardNameK{
