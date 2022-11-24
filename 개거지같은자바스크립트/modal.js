@@ -7,13 +7,13 @@ function modalVisableSwitch(){
     if(isModalOn==true){
         modalBgBg.classList.add('hiden');
         modalBox.classList.add('hiden');
-        htmlBOdy.style.overflow = "hidden";
+        htmlBOdy.style.overflow = "auto";
         isModalOn=false;
     }
     else{
         modalBgBg.classList.remove('hiden');
         modalBox.classList.remove('hiden');
-        htmlBOdy.style.overflow = "auto";
+        htmlBOdy.style.overflow = "hidden";
         isModalOn=true;
     }
 }
