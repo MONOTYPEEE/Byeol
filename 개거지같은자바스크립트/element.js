@@ -63,7 +63,7 @@ function loadList(elm, idx, elmParent){
     }
     newTT.querySelector('#cardNameK').innerText = elm.nameKo;
     newTT.querySelector('#cardNameLt').innerText = elm.nameLt;
-    newTT.querySelector('#cardMeridianWhen').innerText = `${dayjs(elm.whenMeridian).format("M월 D일")} 자오선 통과`;  
+    newTT.querySelector('#cardMeridianWhen').innerText = `${dayjs(elm.south).format("M월 D일")} 남중`;  
     //newTT.querySelectorAll('#cardTag')[0].innerText = elm.tags[0];
     newTT.querySelector('#cardImg').style.backgroundImage =`url('${elm.file}')`;
 }
