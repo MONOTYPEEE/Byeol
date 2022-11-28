@@ -112,6 +112,9 @@ body{
     border-radius: 4px;
     cursor: pointer;
     transition: all 250ms ease-in-out;
+    font-size: 20px;
+    padding: 8px;
+    box-sizing: border-box;
 }
 
 #cardImg:hover{

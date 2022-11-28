@@ -58,6 +58,9 @@ function loadList(elm, idx, elmParent){
 
     newTT.querySelector('#cardImg').addEventListener('click',modalLoader);
 
+    if(elm.emoji!=undefined){
+        newTT.querySelector('#cardImg').innerText = elm.emoji;
+    }
     newTT.querySelector('#cardNameK').innerText = elm.nameKo;
     newTT.querySelector('#cardNameLt').innerText = elm.nameLt;
     newTT.querySelector('#cardMeridianWhen').innerText = `${dayjs(elm.whenMeridian).format("M월 D일")} 자오선 통과`;  
