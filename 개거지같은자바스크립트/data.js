@@ -10,6 +10,9 @@ const starData = [
       tags: ["봄철 밤하늘 별자리","황도 제6궁"],
       emoji: "♍",
       file:"./img/vergino.jpg",
+      south:"2022-05-25T21:00",
+      desc:"두 개의 밀 이삭을 가지고 있는 처녀 형태를 띠는 황도 제6궁의 별자리. ",
+      setllarium:"https://stellarium-web.org/skysource/Virgo?fov=54.973&date=2022-11-25T09:26:32Z&lat=36.38&lng=127.37&elev=0",
     },
     {
       nameKo: "거문고자리",
@@ -20,7 +23,10 @@ const starData = [
       numOfStar: "35개",
       size: "286.476sr(52위)",
       tags: ["여름철 밤하늘 별자리"],
-      file:"./img/lyra.webp"
+      file:"./img/lyra.webp",
+      south:"2022-08-15TT21:00",
+      desc:"고대 그리스의 현악기인 리라(Lyra)의 형태를 한 별자리. 고대 그리스 신화에서는 오르페우스의 악기로 등장한다.",
+      setllarium:"",
     },
     {
       nameKo: "독수리자리",
@@ -31,7 +37,10 @@ const starData = [
       numOfStar: "70개",
       size: "652.473sr(22위)",
       tags: ["여름철 밤하늘 별자리"],
-      file:"./img/aquila.jpg"
+      file:"./img/aquila.jpg",
+      south:"2022-08-30T21:00",
+      desc:"독수리가 날개를 펼친 형상을 한 별자리. 고대 그리스 신화에는 제우스에 속한 새라 기록되어 있다.",
+      setllarium:"",
     },
     {
       nameKo: "뱀자리",
@@ -42,7 +51,10 @@ const starData = [
       numOfStar: "54개",
       size: "636.928sr(23위)",
       tags: ["여름철 밤하늘 별자리"],
-      file:"./img/Serpens.png"
+      file:"./img/Serpens.png",
+      south:"2022-06-30T21:00",
+      desc:"뱀의 머리와 꼬리 둘로 나뉘어 뱀을 그리고 있는 형태의 별자리. 둘 사이에는 뱀주인자리가 뱀을 잡고 있는 형태를 띠고 있다.",
+      setllarium:"",
     },
     {
       nameKo: "페가수스자리",
@@ -53,7 +65,10 @@ const starData = [
       numOfStar: "98개",
       size: "1120.794sr(7위)",
       tags: ["가을철 밤하늘 별자리"],
-      file:"./img/pegasus.jpg"
+      file:"./img/pegasus.jpg",
+      south:"2022-10-20T21:00",
+      desc:"그리스 신화 속 날개 달린 말인 페가수스의 형태를 띠는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "물병자리",
@@ -65,7 +80,10 @@ const starData = [
       size: "979.854sr(10위)",
       tags: ["가을철 밤하늘 별자리","황도 제11궁"],
       emoji: "♒",
-      file:"./img/aquarius.jpg"
+      file:"./img/aquarius.jpg",
+      south:"2022-10-10T21:00",
+      desc:"그리스 신화 속 가니메데가 들고 있는 물병으로 묘사되는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "도마뱀자리",
@@ -76,7 +94,10 @@ const starData = [
       numOfStar: "36개",
       size: "200.688sr(68위)",
       tags: ["가을철 밤하늘 별자리"],
-      file:"./img/lacerta.jpg"
+      file:"./img/lacerta.jpg",
+      south:"2022-10-10T21:00",
+      desc:"작은 W형태로, 카시오페아자리와 비슷한 형태를 가지고 있는 별자리. 한 쪽 끝이 은하수와 겹쳐져 있다.",
+      setllarium:"",
     },
     {
       nameKo: "쌍둥이자리",
@@ -88,7 +109,10 @@ const starData = [
       size: "513.761sr(30위)",
       tags: ["겨울철 밤하늘 별자리","황도 제3궁"],
       emoji: "♊",
-      file:"./img/gemini.jpg"
+      file:"./img/gemini.jpg",
+      south:"2022-02-20T21:00",
+      desc:"쌍둥이가 서로 붙어 서 있는 모습을 띠는 별자리. 그리스 로마 신화의 디오스쿠로이 형제가 모티브가 되었다.",
+      setllarium:"",
     },
     {
       nameKo: "오리온자리",
@@ -99,7 +123,10 @@ const starData = [
       numOfStar: "125개",
       size: "594.120sr(26위)",
       tags: ["겨울철 밤하늘 별자리"],
-      file:"./img/orion.jpg"
+      file:"./img/orion.jpg",
+      south:"2022-01-25T21:00",
+      desc:"그리스 로마 신화 속 사냥꾼 오리온의 이름을 딴 별자리. 근처의 큰개, 작은개자리와 함께 서 황소에게 맞선 형태로 그려진다.",
+      setllarium:"",
     },
     {
       nameKo: "케페우스자리",
@@ -110,7 +137,10 @@ const starData = [
       numOfStar: "96개",
       size: "587.787sr(27위)",
       tags: ["북쪽 밤하늘 별자리"],
-      file:"./img/cephus.jpg"
+      file:"./img/cephus.jpg",
+      south:"2022-10-15T21:00",
+      desc:"카시오페이아 자리 옆에서 북극성 부근을 돌고 있는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "까마귀자리",
@@ -121,7 +151,10 @@ const starData = [
       numOfStar: "18개 / 17개",
       size: "183.801sr(70위) / 282.398sr(53위)",
       tags: ["봄철 밤하늘 별자리"],
-      file:"./img/corvus.jpg"
+      file:"./img/corvus.jpg",
+      south:"2022-05-10T21:00",
+      desc:"뱀자리 북쪽에 위치한 작은 별자리. 바다뱀자리와 같은 신화를 공유한다.",
+      setllarium:"",
     },
     {
       nameKo: "마차부자리",
@@ -133,6 +166,9 @@ const starData = [
       size: "657.438sr(21위)",
       tags: ["겨울철 밤하늘 별자리"],
       file:"./img/auriga.jpg",
+      south:"2022-01-10T21:00",
+      desc:"페르세우스자리 근처에 위치한 오각형 형태의 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "작은개자리",
@@ -144,6 +180,9 @@ const starData = [
       size: "183.367sr(71위)",
       tags: ["겨울철 밤하늘 별자리"],
       file:"./img/canis.jpg",
+      south:"2022-03-01T21:00",
+      desc:"오리온자리를 따르는 두 마리의 개 중 한 마리로 그려지는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "바다뱀자리",
@@ -155,6 +194,9 @@ const starData = [
       size: "1302.844sr(1위)",
       tags: ["봄철 밤하늘 별자리"],
       file:"./img/hydra.jpg",
+      south:"2022-04-20T21:00",
+      desc:"꼬아져 있는 뱀의 형태를 가진 별자리. 까마귀자리와 같은 신화를 공유한다.",
+      setllarium:"",
     },
     {
       nameKo: "돌고래자리",
@@ -166,6 +208,9 @@ const starData = [
       size: "188.549sr(69위)",
       tags: ["여름철 밤하늘 별자리"],
       file:"./img/delphinus.jpg",
+      south:"2022-09-15T21:00",
+      desc:"바다 위로 튀어 오른 돌고래의 모습과 닮은 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "안드로메다자리",
@@ -177,6 +222,9 @@ const starData = [
       size: "722.278sr(19위)",
       tags: ["가을철 밤하늘 별자리"],
       file:"./img/andromeda.jpg",
+      south:"2022-11-10T21:00",
+      desc:"영문 이름에서 알 수 있듯 사슬에 묶여 있는 여성의 모습을 하고 있는 것으로 여겨지는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "황소자리",
@@ -189,6 +237,9 @@ const starData = [
       tags: ["겨울철 밤하늘 별자리","황도 제2궁"],
       emoji: "♉",
       file:"./img/taurus.jpg",
+      south:"2022-01-15T21:00",
+      desc:"오리온자리를 향해 뿔을 내밀고 있는 황소의 모습을 띠는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "큰곰자리",
@@ -200,6 +251,9 @@ const starData = [
       size: "1279.660sr(3위)",
       tags: ["북쪽 밤하늘 별자리"],
       file:"./img/ursa_major.jpg",
+      south:"2022-04-20T21:00",
+      desc:"곰의 모습을 띠며, 작은곰자리와 대조를 이루는 별자리. 북두칠성을 포함하고 있다.",
+      setllarium:"",
     },
     {
       nameKo: "용자리",
@@ -211,6 +265,9 @@ const starData = [
       size: "1082.952sr(8위)",
       tags: ["북쪽 밤하늘 별자리"],
       file:"./img/draco.jpg",
+      south:"2022-07-20T21:00",
+      desc:"그리스 신화 속 라돈(Ladon)이라는 100개의 눈을 가진 용을 의미하는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "카시오페이아자리",
@@ -222,6 +279,9 @@ const starData = [
       size: "598.407sr(25위)",
       tags: ["북쪽 밤하늘 별자리"],
       file:"./img/cassiopeia.jpg",
+      south:"2022-11-20T21:00",
+      desc:"W자를 하고 있는 카시오페이아 여왕을 의미하는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "머리털자리",
@@ -233,6 +293,9 @@ const starData = [
       size: "386.475sr(42위)",
       tags: ["봄철 밤하늘 별자리"],
       file:"./img/Coma_Berenices.jpg",
+      south:"2022-05-15T21:00",
+      desc:"사자자리의 꼬리 부근에 위치한 별자리. 이집트의 왕 프톨레마이오스 3세가 원정에서 무사히 귀환하며 그의 왕비가 신전에 자신의 머리카락을 바쳤다는 이야기가 전해진다.",
+      setllarium:"",
     },
     {
       nameKo: "사냥개자리",
@@ -244,6 +307,9 @@ const starData = [
       size: "465.194sr(38위)",
       tags: ["봄철 밤하늘 별자리"],
       file:"./img/canes-venatici.jpg",
+      south:"2022-05-20T21:00",
+      desc:"목동자리가 쥐고 있는 끈에 묶여 있는 것으로 그려지는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "천칭자리",
@@ -256,6 +322,9 @@ const starData = [
       tags: ["봄철 밤하늘 별자리","황도 제7궁"],
       emoji: "♎",
       file:"./img/libra.jpg",
+      south:"2022-06-20T21:00",
+      desc:"처녀자리와 전갈자리 사이에 위치한 저울의 일종인 천칭의 모양을 띠는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "살쾡이자리",
@@ -267,6 +336,9 @@ const starData = [
       size: "545.386sr(28위)",
       tags: ["봄철 밤하늘 별자리"],
       file:"./img/lynx.jpg",
+      south:"2022-03-05T21:00",
+      desc:"매우 어두운 별자리여서, 천문학자 요하네스 허벨리우스가 '스라소니의 눈을 가진 사람만이 볼 수 있다'고 하여 이런 이름이 붙여졌다.",
+      setllarium:"",
     },
     {
       nameKo: "궁수자리",
@@ -278,6 +350,9 @@ const starData = [
       size: "867.432sr(15위)",
       tags: ["여름철 밤하늘 별자리"],
       file:"./img/sagittarius.jpg",
+      south:"2022-08-20T21:00",
+      desc:"흔히 활시위를 당기는 켄타우로스로 묘사되는 별자리. 우리 은하의 중심이 위치하고 있다.",
+      setllarium:"",
     },
     {
       nameKo: "백조자리",
@@ -288,7 +363,10 @@ const starData = [
       numOfStar: "139개",
       size: "803.983sr(16위)",
       tags: ["여름철 밤하늘 별자리"],
-      file:"./img/swan.jpg"
+      file:"./img/swan.jpg",
+      south:"2022-09-10T21:00",
+      desc:"날개를 펼친 백조의 모습을 가진 별자리. 은하수 위에 위치해 있다.",
+      setllarium:"",
     },
     {
       nameKo: "염소자리",
@@ -301,6 +379,9 @@ const starData = [
       tags: ["여름철 밤하늘 별자리","황도 제10궁"],
       emoji: "♑",
       file:"./img/capricornus.jpg",
+      south:"2022-09-20T21:00",
+      desc:"'뿔 달린 염소'나 '염소의 뿔'을 의미하는 별자리. 물병자리, 물고기자리, 에리다누스자리와 함께 물과 관련된 별자리를 구성한다.",
+      setllarium:"",
     },
     {
       nameKo: "전갈자리",
@@ -313,6 +394,9 @@ const starData = [
       tags: ["여름철 밤하늘 별자리","황도 제8궁"],
       emoji: "♏",
       file:"./img/scorpio.jpg",
+      south:"2022-07-20T21:00",
+      desc:"꼬리가 강조되어 있는 전갈의 형태를 띠는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "헤르쿨레스자리",
@@ -324,6 +408,9 @@ const starData = [
       size: "1225.148sr(5위)",
       tags: ["여름철 밤하늘 별자리"],
       file:"./img/hercules.jpg",
+      south:"2022-07-25T21:00",
+      desc:"그리스 신화에 등장하는 헤라클레스의 이름을 따 지어진 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "작은여우자리",
@@ -336,6 +423,9 @@ const starData = [
       tags: ["여름철 밤하늘 별자리","황도 제9궁"],
       emoji: "♐",
       file:"./img/vulpecula.jpg",
+      south:"2022-09-10T21:00",
+      desc:"천문학자 요하네스 헤벨리우스에 의해 만들어진 어두운 별자리. 은하수 위에 위치해 있다.",
+      setllarium:"",
     },
     {
       nameKo: "고래자리",
@@ -347,6 +437,9 @@ const starData = [
       size: "1231.411sr(4위)",
       tags: ["가을철 밤하늘 별자리"],
       file:"./img/cetus.jpg",
+      south:"2022-11-30T21:00",
+      desc:"그리스 신화 속 포세이돈이 보낸 괴물을 의미하는 별자리. 물과 관련된 물병자리, 물고기자리와 함께 위치해 있다.",
+      setllarium:"",
     },
     {
       nameKo: "물고기자리",
@@ -359,6 +452,8 @@ const starData = [
       tags: ["가을철 밤하늘 별자리","황도 제12궁"],
       emoji: "♓",
       file:"./img/pisces.jpg",
+      south:"2022-11-10T21:00",
+      desc:"두 마리의 연결된 물고기가 서로 반대 방향으로 헤엄치는 모습을 띠는 황도 제 12궁의 별자리.",
     },
     {
       nameKo: "페르세우스자리",
@@ -370,6 +465,9 @@ const starData = [
       size: "614.997sr(24위)",
       tags: ["가을철 밤하늘 별자리"],
       file:"./img/perseus.jpg",
+      south:"2022-12-25T21:00",
+      desc:"그리스 신화에 등장하는 영웅인 페르세우스에서 유래된 별자리. 메두사의 목을 들고 있는 모습을 하고 있다.",
+      setllarium:"",
     },
     {
       nameKo: "양자리",
@@ -382,6 +480,9 @@ const starData = [
       tags: ["가을철 밤하늘 별자리","황도 제1궁"],
       emoji: "♈",
       file:"./img/aries.png",
+      south:"2022-12-10T21:00",
+      desc:"양의 뿔을 형상화한 형태의 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "게자리",
@@ -394,6 +495,9 @@ const starData = [
       tags: ["겨울철 밤하늘 별자리","황도 제4궁"],
       emoji: "♋",
       file:"./img/cancer.jpg",
+      south:"2022-03-15T21:00",
+      desc:"그리스 신화에는 헤라가 헤라클레스를 없애기 위해 보낸 '카르키노스'라는 거대한 게라고 되어 있다.",
+      setllarium:"",
     },
     {
       nameKo: "에리다누스자리",
@@ -416,6 +520,9 @@ const starData = [
       size: "290.291sr(51위)",
       tags: ["겨울철 밤하늘 별자리"],
       file:"./img/lepus.jpg",
+      south:"2022-01-25T21:00",
+      desc:"토끼의 형태를 띠는 별자리. 위쪽에 위치한 오리온자리에게 쫒기는 모습으로도 그려진다.",
+      setllarium:"",
     },
     {
       nameKo: "큰개자리",
@@ -427,6 +534,9 @@ const starData = [
       size: "380.118sr(43위)",
       tags: ["겨울철 밤하늘 별자리"],
       file:"./img/canis-major.jpg",
+      south:"2022-02-15T21:00",
+      desc:"사냥꾼 오리온을 따르는 두 마리의 개 중 한 마리로 그려지는 별자리.",
+      setllarium:"",
     },
     {
       nameKo: "사자자리",
@@ -439,6 +549,9 @@ const starData = [
       tags: ["봄철 밤하늘 별자리","황도 제5궁"],
       emoji: "♌",
       file:"./img/leo.jpg",
+      south:"2022-06-20T21:00",
+      desc:"그리스 신화의 헤라클레스가 쓰러뜨린 네메아의 사자에서 유래된 별자리. 현대의 88개 별자리 중 가장 오래된 별자리이다.",
+      setllarium:"",
     },
     {
       nameKo: "목동자리",
@@ -450,5 +563,8 @@ const starData = [
       size: "906.831sr(13위)",
       tags: ["봄철 밤하늘 별자리"],
       file:"./img/bootes.jpg",
+      south:"2022-06-15T21:00",
+      desc:"큰곰자리를 향하는 큰 사람의 형태를 띠고 있다.",
+      setllarium:"",
     }
   ];
