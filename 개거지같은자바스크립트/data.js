@@ -566,5 +566,20 @@ const starData = [
       south:"2022-06-15T21:00",
       desc:"큰곰자리를 향하는 큰 사람의 형태를 띠고 있다.",
       setllarium:"",
-    }
+    },
+    {
+      nameKo: "땅꾼자리",
+      nameLt: "Ophiuchus",
+      nameEn: "the Serpentholder",
+      whereSee: "적경 17h 10m, 적위 -4°",
+      whenMeridian: "2022-08-03",
+      numOfStar: "84개",
+      size: "948.340sr(11위)",
+      tags: ["여름철 밤하늘 별자리","황도 제13궁"],
+      emoji:"⛎",
+      file:"./img/ophiuchus.jpeg",
+      south:"2022-07-25T21:00",
+      desc:"뱀을 들고 있는 사람의 형태를 가진 별자리. 뱀자리 중간에 위치해 별자리를 둘로 가르고 있다.",
+      setllarium:"",
+    },
   ];
