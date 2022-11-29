@@ -608,6 +608,19 @@ const starData = [
     south:"2022-04-25T21:00",
     desc:"바다뱀자리, 까마귀자리 신화에 등장하는 술잔이 배경이 된 별자리. 술잔자리라고도 불린다.",
   },
+  {
+      nameKo: "북쪽왕관자리",
+      nameLt: "Corona Borealis",
+      nameEn: "the Northern Crown",
+      whereSee: "적경 15h 40m, 적위 +30°",
+      whenMeridian: "2022-07-11",
+      numOfStar: "25개",
+      size: "178.710평방도(73위)",
+      tags: ["봄철 밤하늘 별자리"],
+      file:"./img/corona-borealis_northen.jpg",
+      south:"2022-06-30T21:00",
+      desc:"머리띠 형태의 얇은 왕관을 닮은 별자리. 그리스 신화에서는 디오니소스가 아리아드네에게 선물한 왕관이라고도 기록되어 있다. 별의 배치가 매우 닮은 남쪽왕관자리가 존재한다.",
+  },
   ];
 
   // {
