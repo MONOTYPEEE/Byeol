@@ -4,7 +4,8 @@ const htmlBOdy = document.querySelector('body');
 let isModalOn = false;
 
 function modalLoader(event){
-    const givenID = event.path[1].classList[0];
+    console.log(event);
+    const givenID = event.composedPath()[1].classList[0];
     modalBox.querySelector("#imImage").style.backgroundImage = `url('${starData[givenID].file}')`;
 
     modalBox.querySelector("#imsNameE").innerHTML = starData[givenID].nameEn;
