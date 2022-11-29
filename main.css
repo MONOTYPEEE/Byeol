@@ -212,3 +212,7 @@ header img{
     background-color: #ffffff3b;
     margin-left: 12px;
 }
+
+.notSearchRes{
+    display: none !important;
+}
