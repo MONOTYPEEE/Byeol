@@ -14,7 +14,6 @@ function searchToggler(){
                 element.classList.remove('hiden');
             }
         });
-        console.log("eos");
     }
 };
 
