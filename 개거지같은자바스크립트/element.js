@@ -4,7 +4,7 @@ const boxes = document.querySelectorAll(`#cardMain`);
 function loadList(elm, idx, elmParent){
     const newTT = document.createElement('div');
     newTT.id = 'cardMain';
-    newTT.classList.add(starData.indexOf(elm));
+    newTT.setAttribute('indexid',starData.indexOf(elm));
     cardListBox.appendChild(newTT);
     newTT.innerHTML = `            <div id="cardImg"></div>
     <span>

@@ -5,7 +5,7 @@ let isModalOn = false;
 
 function modalLoader(event){
     //console.log(event);
-    const givenID = event.composedPath()[1].classList[0];
+    const givenID = event.composedPath()[1].getAttribute("indexid");
     modalBox.querySelector("#imImage").style.backgroundImage = `url('${starData[givenID].file}')`;
 
     modalBox.querySelector("#imsNameE").innerHTML = starData[givenID].nameEn;
