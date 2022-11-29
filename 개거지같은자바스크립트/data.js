@@ -582,6 +582,19 @@ const starData = [
     south:"2022-10-10T21:00",
     desc:"물고기의 모습으로 그려지는 별자리. 그리스 신화에서는, 연회 중 괴물이 나타나 도망칠 때 여신 아프로디테가 물고기로 변한 데서 유래되었다.",
   },
+  {
+    nameKo: "조랑말자리",
+    nameLt: "Equuleus",
+    nameEn: "the Little Horse",
+    whereSee: "적경 21h 10m, 적위 +6°",
+    whenMeridian: "10월 3일 오후 9시",
+    numOfStar: "10개",
+    size: "71.641평방도(87위)",
+    tags: ["가을철 밤하늘 별자리"],
+    file:"./img/Equuleus.jpg",
+    south:"2022-09-20T21:00",
+    desc:"그리스 신화 속 페가수스의 새끼 또는 형제로 알려진 셀레리스와 관련되어 있다고 알려진 별자리.",
+  },
   ];
 
   // {
