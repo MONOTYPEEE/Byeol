@@ -1,8 +1,20 @@
 const searchBar = document.querySelector("#searchInput");
 
 function searchToggler(){
-    if(searchBar==''){
-
+    if(searchBar.value==''){
+        allCardVisable();
+    }
+    else{
+        allCardHiden();
+        cardListBox.querySelectorAll("#cardMain").forEach(function(element){
+            if(element.querySelector('#cardNameK').innerHTML.includes(searchBar.value)||
+            element.querySelector('#cardNameLt').innerHTML.toLowerCase().includes(searchBar.value)||
+            element.querySelector('#cardNameLt').innerHTML.toUpperCase().includes(searchBar.value)||
+            element.querySelector('#cardNameLt').innerHTML.includes(searchBar.value)){
+                element.classList.remove('hiden');
+            }
+        });
+        console.log("eos");
     }
 };
 
