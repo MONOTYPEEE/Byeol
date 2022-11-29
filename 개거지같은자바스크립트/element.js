@@ -66,4 +66,4 @@ function loadList(elm, idx, elmParent){
     newTT.querySelector('#cardMeridianWhen').innerText = `${dayjs(elm.south).format("M월 D일")} 남중`;  
     //newTT.querySelectorAll('#cardTag')[0].innerText = elm.tags[0];
     newTT.querySelector('#cardImg').style.backgroundImage =`url('${elm.file}')`;
-}
+};
