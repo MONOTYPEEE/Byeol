@@ -78,8 +78,6 @@ body{
 }
 
 #cardList{
-    position: absolute;
-    top: 100px;
     max-width: 1100px;
     display: flex;
     flex-wrap: wrap;
@@ -211,4 +209,23 @@ header img{
     width: 1px;
     background-color: #ffffff3b;
     margin-left: 12px;
+}
+
+input{
+    margin-bottom: 16px;
+    border: #d1d1d1 solid 1px;
+    border-bottom: #616161 2px solid;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    min-height: 32px;
+    border-radius: 4px;
+    line-height: 20px;
+    background-color: white;
+    outline: none;
+    font-size: 16px;
+}
+
+.headerPCS{
+    position: absolute;
+    top: 100px;
 }
