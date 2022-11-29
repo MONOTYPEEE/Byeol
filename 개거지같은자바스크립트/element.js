@@ -22,7 +22,7 @@ function loadList(elm, idx, elmParent){
         // console.log(element);
         tagBox[idx].appendChild(tagX);
         tagX.addEventListener('click',function(element){
-            switch(element.path[0].innerHTML){
+            switch(element.composedPath()[0].innerHTML){
                 case '겨울철 밤하늘 별자리':{
                     location.href = `./tag.html?tagname=winter`;
                     break;
