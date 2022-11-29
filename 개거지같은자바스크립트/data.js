@@ -167,7 +167,7 @@ const starData = [
       numOfStar: "25개",
       size: "183.367sr(71위)",
       tags: ["겨울철 밤하늘 별자리"],
-      file:"./img/canis.jpg",
+      file:"./img/canisMinor.jpg",
       south:"2022-03-01T21:00",
       desc:"오리온자리를 따르는 두 마리의 개 중 한 마리로 그려지는 별자리.",
     },
