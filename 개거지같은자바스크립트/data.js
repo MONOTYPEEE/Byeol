@@ -595,6 +595,19 @@ const starData = [
     south:"2022-09-20T21:00",
     desc:"그리스 신화 속 페가수스의 새끼 또는 형제로 알려진 셀레리스와 관련되어 있다고 알려진 별자리.",
   },
+  {
+    nameKo: "컵자리",
+    nameLt: "Crater",
+    nameEn: "the Cup",
+    whereSee: "적경 11h 20m, 적위 -15°",
+    whenMeridian: "5월 6일 오후 9시",
+    numOfStar: "17개",
+    size: "282.398평방도(53위)",
+    tags: ["봄철 밤하늘 별자리"],
+    file:"./img/crater.jpg",
+    south:"2022-04-25T21:00",
+    desc:"바다뱀자리, 까마귀자리 신화에 등장하는 술잔이 배경이 된 별자리.",
+  },
   ];
 
   // {
