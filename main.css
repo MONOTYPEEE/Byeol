@@ -158,7 +158,7 @@ body{
 }
 
 .hiden{
-    visibility: hidden;
+    visibility: hidden !important;
 }
 
 
@@ -211,8 +211,4 @@ header img{
     width: 1px;
     background-color: #ffffff3b;
     margin-left: 12px;
-}
-
-.notSearchRes{
-    display: none !important;
 }
