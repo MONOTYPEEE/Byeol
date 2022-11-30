@@ -200,7 +200,7 @@ const starData = [
     {
       nameKo: "안드로메다자리",
       nameLt: "Andromeda",
-      nameEn: "the Chained Lady, the Chained Woman",
+      nameEn: "the Chained Lady",
       whereSee: "적경 0h 40m, 적위 +38°",
       whenMeridian: "2022-11-25",
       numOfStar: "84개",
