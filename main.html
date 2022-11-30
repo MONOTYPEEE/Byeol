@@ -50,22 +50,25 @@
     <div id="infoModalBg" class="absoluteCenter hiden"></div>
 
     <header>
-        <img src="./img/logo.svg"/>
-        <div id="headerBord"></div>
-        <a class="topBarSt selected" href="./main.html">시간순</a>
-        <a class="topBarSt" href="./tag.html?tagname=spring">봄철</a>
-        <a class="topBarSt" href="./tag.html?tagname=summer">여름철</a>
-        <a class="topBarSt" href="./tag.html?tagname=authmn">가을철</a>
-        <a class="topBarSt" href="./tag.html?tagname=winter">겨울철</a>
-        <a class="topBarSt" href="./tag.html?tagname=northen">북쪽</a>
-        <a class="topBarSt" href="./tag.html?tagname=zodiac">황도 12궁</a>
+        <span>
+            <img src="./img/logo.svg"/>
+        </span>
+        <span>
+            <a class="topBarSt selected" href="./main.html">시간순</a>
+            <a class="topBarSt" href="./tag.html?tagname=spring">봄철</a>
+            <a class="topBarSt" href="./tag.html?tagname=summer">여름철</a>
+            <a class="topBarSt" href="./tag.html?tagname=authmn">가을철</a>
+            <a class="topBarSt" href="./tag.html?tagname=winter">겨울철</a>
+            <a class="topBarSt" href="./tag.html?tagname=northen">북쪽</a>
+            <a class="topBarSt" href="./tag.html?tagname=zodiac">황도 12궁</a>
+        </span>
+        <span>
+            <label for="searchInput">검색</label>
+            <input id="searchInput"/>
+        </span>
     </header>
     
-    <div class="headerPCS">
-        <input id="searchInput"/>
-        <label for="searchInput">검색</label>
-        <div id="cardList"></div>
-    </div>
+    <div id="cardList"></div>
     
 </body>
     <script src="./개거지같은자바스크립트/modal.js"></script>
