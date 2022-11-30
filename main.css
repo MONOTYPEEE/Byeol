@@ -221,12 +221,13 @@ header img{
 input{
     border: #424242 solid 1px;
     border-bottom: #4d4d4d 2px solid;
+    background-color: #292929;
+    color: #ffffff;
     padding: 0px 10px;
     box-sizing: border-box;
     min-height: 32px;
     border-radius: 4px;
     line-height: 20px;
-    background-color: #292929;
     outline: none;
     font-size: 16px;
 }
