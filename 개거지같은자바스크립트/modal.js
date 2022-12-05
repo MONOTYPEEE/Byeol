@@ -20,6 +20,9 @@ function modalLoader(event){
     modalBox.querySelectorAll(".imPL :last-child")[4].innerHTML = dayjs(starData[givenID].south).format("M월 D일");
     modalBox.querySelectorAll(".imPL :last-child")[5].innerHTML = starData[givenID].desc;
 
+    modalBox.querySelector("#enS").href=`https://www.google.co.kr/search?q=${starData[givenID].nameLt}+constellation`
+    modalBox.querySelector("#hgS").href=`https://www.google.co.kr/search?q=${starData[givenID].nameKo}`
+
     modalVisableSwitch()
 }
 
