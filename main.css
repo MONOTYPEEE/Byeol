@@ -236,3 +236,15 @@ label{
     color: white;
     margin-right: 10px;
 }
+
+.srcA{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+
+.srcA::before{
+    content: '링크';
+    color: rgba(255, 255, 255, 01.5rem);
+    text-decoration: none;
+    margin-right: 4px;
+}
