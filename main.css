@@ -238,13 +238,19 @@ label{
 }
 
 .srcA{
+    margin-top: 20px;
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
 }
 
 .srcA::before{
-    content: '링크';
-    color: rgba(255, 255, 255, 01.5rem);
+    display: inline-block;
+    content: "";
     text-decoration: none;
     margin-right: 4px;
+    width: 1rem;
+    height: 1rem;
+    background-image: url(./img/outBoundLink.svg);
+    background-position: center;
+    background-size: 1rem;
 }
