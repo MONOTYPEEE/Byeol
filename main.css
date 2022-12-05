@@ -230,6 +230,12 @@ input{
     line-height: 20px;
     outline: none;
     font-size: 16px;
+    transition: 250ms all;
+}
+
+input:focus{
+    border-bottom: #a200ff 2px solid;
+    transition: 250ms all;
 }
 
 label{
@@ -239,8 +245,8 @@ label{
 
 .srcA{
     margin-top: 20px;
-    color: rgba(255, 255, 255, 1);
-    font-weight: 600;
+    color: #a200ff;
+    font-weight: 900;
 }
 
 .srcA::before{
