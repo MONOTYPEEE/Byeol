@@ -1,3 +1,13 @@
+console.log(`%c
+         @         
+         @         
+       @@@@@       
+(@@@@@@@@@@@@@@@@@ 
+       @@@@@       
+         @         
+         @
+Byeol`,'color:#a200ff; font-size:24px');
+
 const starData = [
     {
       nameKo: "처녀자리",
